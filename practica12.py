@@ -20,6 +20,7 @@ class SinFavoritosError(Exception):
 class PokemonNoFavoritoError(Exception):
     pass
 
+#declaración de la clase pokémon
 class Pokemon:
     def __init__(self, nombre: str, id: int):
         self.nombre = nombre
